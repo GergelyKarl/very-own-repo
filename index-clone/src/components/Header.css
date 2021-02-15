@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+.header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 4px solid #f90;
+  padding-bottom: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff !important;
+}
+
+.header__one {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e6e6e6;
+  width: 100%;
+}

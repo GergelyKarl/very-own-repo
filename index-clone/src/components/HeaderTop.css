@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+/* font-family: 'Open Sans', sans-serif; */
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1173px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__rovatok {
+  display: flex;
+  padding: 0 12px;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+
+  align-items: center;
+}
+
+.header__rovatok > a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.header__rovatok > a:hover {
+  color: #f90;
+}
+
+.header__rovatok > .MuiSvgIcon-root {
+  color: #999;
+  padding-right: 5px;
+  font-size: 31px;
+  font-weight: bolder;
+}
+
+.header__legfrissebb {
+  display: flex;
+  padding: 0 12px;
+  border-right: 1px solid #e6e6e6;
+}
+.header__legfrissebb > a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #999;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+.header__legfrissebb > a:hover {
+  color: #f90;
+}
+
+.header__legfrissebb > .MuiSvgIcon-root {
+  color: #999;
+}
+
+.header__oldalak {
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+}
+.header__oldalak > a {
+  padding: 0 10px;
+  color: #999;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.header__oldalak > a:hover {
+  color: #f90;
+}
+
+.header__oldalak > .MuiSvgIcon-root {
+  color: #999;
+  margin-left: -12px;
+}
+
+.header__ikonok {
+  display: flex;
+  align-items: center;
+}
+
+.header__ikon {
+  height: 49px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+}
+
+.header__ikon > .MuiSvgIcon-root {
+  color: #999;
+  font-size: 31px;
+  margin: 0 5px;
+}
+
+.header__ikon > .MuiSvgIcon-root:hover {
+  color: #f90;
+}
